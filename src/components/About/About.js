@@ -13,12 +13,14 @@ export default function About() {
       } ${value.isDarkMode ? "bg-[#1C1C27]" : "bg-slate-100"} `}
       style={{ fontFamily: "poppins" }}
     >
-      <div className="p-28 w-8/12 max-[1083px]:order-2 max-[1083px]:py-0 max-[1083px]:w-9/12">
-        <div className="text-6xl m-2 max-[1083px]:mt-1 max-[1083px]:text-center max-[1083px]:text-4xl max-[924px]:text-3xl">
+      <div className="p-28 w-8/12 max-[1083px]:order-2 max-[1083px]:py-0 max-[1083px]:w-9/12 max-[924px]:w-8/12">
+        <div className="text-6xl m-2 max-[1083px]:mt-1 max-[1083px]:text-center max-[1083px]:text-4xl max-[924px]:text-3xl max-[616px]:text-2xl">
           Hi, I'm
-          <div className="mt-3 max-[1083px]:text-center max-[1083px]:mt-2 max-[1083px]:text-4xl max-[924px]:text-3xl">{Bio.name}</div>
+          <div className="mt-3 max-[1083px]:text-center max-[1083px]:mt-2 max-[1083px]:text-4xl max-[924px]:text-3xl max-[616px]:text-2xl">
+            {Bio.name}
+          </div>
         </div>
-        <span className="text-3xl flex m-2 mt-3 max-[1083px]:mt-2 max-[1083px]:text-center max-[1083px]:text-3xl max-[924px]:text-2xl">
+        <span className="text-3xl flex m-2 mt-3 max-[1083px]:mt-2 max-[1083px]:text-center max-[1083px]:text-3xl max-[924px]:text-2xl max-[616px]:text-xl">
           <span>I'm a&nbsp;</span>
           <span className="inline text-[#854ce6]">
             <Typewriter
@@ -27,13 +29,13 @@ export default function About() {
                 autoStart: true,
                 loop: true,
               }}
-            />
+           />
             {/* React Native Developer */}
           </span>
         </span>
 
         <div
-          className={`text-lg m-2 mt-4 max-[1083px]:mt-2 w-11/12 max-[1083px]:text-sm ${
+          className={`text-lg text-justify m-2 mt-4 max-[1083px]:text-center max-[1083px]:mt-2 w-11/12 max-[1083px]:text-sm ${
             value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
           }  `}
         >
@@ -41,7 +43,7 @@ export default function About() {
         </div>
         <div className="m-6 max-[1083px]:mt-4 max-[1083px]:text-center">
           <a
-            className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-purple-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-purple-600"
             href={Bio.resume}
             target="display"
           >
