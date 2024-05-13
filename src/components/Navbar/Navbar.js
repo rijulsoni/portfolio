@@ -1,10 +1,9 @@
 import React from "react";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
-import { NavLink } from "react-router-dom";
 import logo from "../../assets/RS.png";
 import logoWhite from "../../assets/RS_White.png";
 import { Bio } from "../../data/constants";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 
 import ThemeContext from "../../context/theme/ThemeContext";
 
