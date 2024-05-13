@@ -40,16 +40,16 @@ export default function Footer() {
         </nav>
         <div className="flex justify-center mt-8 space-x-6">
           <a href="#" className="text-gray-400 hover:text-gray-500">
-            <i class="fa-brands fa-twitter text-2xl" />
+            <i className="fa-brands fa-twitter text-2xl" />
           </a>
           <a href="#" className="text-gray-400 hover:text-gray-500">
-            <i class="fa-brands fa-github text-2xl" />
+            <i className="fa-brands fa-github text-2xl" />
           </a>
           <a href="#" className="text-gray-400 hover:text-gray-500">
-            <i class="fa-brands fa-instagram text-2xl" />
+            <i className="fa-brands fa-instagram text-2xl" />
           </a>
           <a href="#" className="text-gray-400 hover:text-gray-500">
-            <i class="fa-brands fa-linkedin-in text-2xl" />
+            <i className="fa-brands fa-linkedin-in text-2xl" />
           </a>
         </div>
         <p

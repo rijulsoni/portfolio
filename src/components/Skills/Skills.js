@@ -6,7 +6,12 @@ import ThemeContext from "../../context/theme/ThemeContext";
 export default function Skills() {
   const value = useContext(ThemeContext);
   return (
-    <div className={`flex flex-col items-center ${value.isDarkMode ? "bg-[#1C1C27]" : "bg-slate-100"} `} style={{ fontFamily: "poppins" }}>
+    <div
+      className={`flex flex-col items-center ${
+        value.isDarkMode ? "bg-[#1C1C27]" : "bg-slate-100"
+      } `}
+      style={{ fontFamily: "poppins" }}
+    >
       <div
         className={`text-[42px] text-center   ${
           value.isDarkMode ? "text-white" : "text-black"
@@ -22,10 +27,10 @@ export default function Skills() {
         Here are some of my skills on which I have been working on for the past
         2 years.
       </div>
-      <div className="w-full max-w-lg mt-8">
+      <div className="w-[500px] min-[1083px]:w-[1000px] mt-8 grid grid-cols-1 gap-8 min-[1083px]:grid-cols-2">
         {skills.map((skill) => (
           <div
-            className={`rounded-2xl shadow-sm border-2 border-[#854CE6] mb-20 ${
+            className={`rounded-3xl shadow-sm border-2 border-[#854CE6] mb-10 ${
               value.isDarkMode ? "bg-[#1C1C27]" : "bg-slate-100"
             } ${value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"}`}
             key={skill.id}

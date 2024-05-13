@@ -56,8 +56,8 @@ export default function Navbar() {
             Github Profile
           </a>
 
-          <button class="p-2 md:hidden" onClick={handleMenu}>
-            <i class="fa-solid fa-bars text-gray-600"></i>
+          <button className="p-2 md:hidden" onClick={handleMenu}>
+            <i className="fa-solid fa-bars text-gray-600"></i>
           </button>
           <div
             id="nav-dialog"
@@ -65,52 +65,52 @@ export default function Navbar() {
               isNavDialogOpen ? "" : "hidden"
             } fixed z-10 md:hidden w-full bg-white inset-0 p-3`}
           >
-            <div id="nav-bar" class="flex justify-between">
-              <a href="#" id="brand" class="flex gap-2 items-center">
+            <div id="nav-bar" className="flex justify-between">
+              <a href="#" id="brand" className="flex gap-2 items-center">
                 <img
-                  class="object-cover max-w-12 max-h-12"
+                  className="object-cover max-w-12 max-h-12"
                   src={logo}
                   alt="Logo"
                 />
-                <span class="text-lg font-bold font-display">Rijul Soni</span>
+                <span className="text-lg font-bold font-display">Rijul Soni</span>
               </a>
-              <button class="p-2 md:hidden" onClick={handleMenu}>
-                <i class="fa-solid fa-xmark text-gray-600" />
+              <button className="p-2 md:hidden" onClick={handleMenu}>
+                <i className="fa-solid fa-xmark text-gray-600" />
               </button>
             </div>
-            <div class="mt-6">
+            <div className="mt-6">
               <a
                 href="#"
-                class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"
+                className="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"
               >
                 About
               </a>
               <a
                 href="#"
-                class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"
+                className="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"
               >
                 Skills
               </a>
               <a
                 href="#"
-                class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"
+                className="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"
               >
                 Experience
               </a>
               <a
                 href="#"
-                class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"
+                className="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"
               >
                 Projects
               </a>
               <a
                 href="#"
-                class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"
+                className="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"
               >
                 Education
               </a>
             </div>
-            <div class="h-[1px] bg-gray-300"></div>
+            <div className="h-[1px] bg-gray-300"></div>
           </div>
         </div>
         <div
