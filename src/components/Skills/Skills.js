@@ -55,7 +55,7 @@ export default function Skills() {
                         : "border-[#11111180]"
                     } rounded-2xl px-3 py-4 flex gap-3`}
                   >
-                    <img width="24px" height="24px" src={item.image} />
+                    <img alt="skill name" width="24px" height="24px" src={item.image} />
                     {item.name}
                   </div>
                 </div>
