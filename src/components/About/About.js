@@ -55,7 +55,7 @@ export default function About() {
         <img
           className="border-2 rounded-full border-purple-600 w-80 h-80 max-[1083px]:w-60 max-[1083px]:h-60 max-[924px]:w-32 max-[924px]:h-32"
           src={HeroImg}
-          alt="hero-image"
+          alt="hero-img"
         />
       </div>
     </div>

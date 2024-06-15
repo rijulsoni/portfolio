@@ -1,4 +1,5 @@
 import "./App.css";
+import Contact from "./Contact/Contact";
 import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
 import Footer from "./components/Footer/Footer";
@@ -19,6 +20,7 @@ function App() {
       <About />
       <Skills/>
       <Experience/>
+      <Contact/>
       <Footer/>
     </ThemeContext.Provider>
   );

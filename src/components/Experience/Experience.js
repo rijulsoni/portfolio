@@ -56,6 +56,7 @@ export default function Experience() {
                       width="50px"
                       height="50px"
                       src={experience.img}
+                      alt="img"
                     />
                     <div className="w-full flex flex-col ml-8">
                       <div className="text-[16px] font-semibold">
@@ -93,6 +94,7 @@ export default function Experience() {
                         <img
                           className="w-20 border h-28"
                           src={experience.doc}
+                          alt="doc"
                         />
                       </a>
                     </div>
