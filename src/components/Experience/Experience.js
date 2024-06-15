@@ -8,13 +8,15 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import { experiences } from "../../data/constants";
 import { useContext } from "react";
 import ThemeContext from "../../context/theme/ThemeContext";
+
 export default function Experience() {
   const value = useContext(ThemeContext);
+
   return (
     <div
       className={`flex flex-col items-center ${
-        value.isDarkMode ? "bg-[#1C1C27]" : "bg-slate-100"
-      } `}
+        value.isDarkMode ? "bg-[#0d0d1a]" : "bg-slate-100"
+      }`}
       style={{ fontFamily: "poppins" }}
     >
       <div
@@ -27,7 +29,7 @@ export default function Experience() {
       <div
         className={`text-xl text-center  ${
           value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
-        } `}
+        }`}
       >
         My work experience as a software engineer and working on different
         companies and projects.
@@ -35,19 +37,18 @@ export default function Experience() {
       <div className="flex flex-col items-center justify-center w-full max-w-5xl">
         <Timeline>
           {experiences.map((experience, index) => (
-            <TimelineItem>
+            <TimelineItem key={index}>
               <TimelineSeparator>
                 <TimelineDot variant="outlined" color="secondary" />
-                {index !== experiences.length - 1 && (
+                {index !== experiences.length && (
                   <TimelineConnector style={{ background: "#854CE6" }} />
                 )}
               </TimelineSeparator>
               <TimelineContent sx={{ py: "12px", px: 2 }}>
                 <div
-                  className="w-[650px] border-2 border-red rounded-xl  px-3 py-4"
-                  style={{
-                    color: value.isDarkMode ? "#F2F3F495" : "#11111195",
-                  }}
+                  className={`w-[750px] border-2 border-[#306EE8] rounded-xl hover:cursor-pointer px-3 py-4 group ${
+                    value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
+                  }`}
                 >
                   <div className="flex justify-between">
                     <img
@@ -71,23 +72,23 @@ export default function Experience() {
                   <hr className="mt-3" />
                   <div className="mt-3">
                     {experience?.desc && (
-                      <span className="">{experience?.desc}</span>
+                      <span className="line-clamp-3 group-hover:block">
+                        {experience.desc}
+                      </span>
                     )}
                     {experience?.skills && (
-                      <>
-                        <div className="w-full flex gap-3 -mt-3">
-                          <div className="font-semibold mt-4">Skills:</div>
-                          <div className="mt-4">
-                            {experience?.skills?.map((skill) => (
-                              <span> •{skill}</span>
-                            ))}
-                          </div>
+                      <div className="w-full flex gap-3 -mt-3">
+                        <div className="font-semibold mt-4">Skills:</div>
+                        <div className="mt-4">
+                          {experience?.skills?.map((skill, skillIndex) => (
+                            <span key={skillIndex}> •{skill}</span>
+                          ))}
                         </div>
-                      </>
+                      </div>
                     )}
                   </div>
                   {experience.doc && (
-                    <div className="mt-3">
+                    <div className="mt-3 hidden group-hover:block">
                       <a href={experience.doc} target="new">
                         <img
                           className="w-20 border h-28"
