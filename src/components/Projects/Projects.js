@@ -75,11 +75,11 @@ export default function Projects() {
         {filteredProjects.map((project) => {
           return (
             <div
-              class={`flex flex-col mt-9 text-gray-700  ${
+              className={`flex flex-col mt-9 text-gray-700  ${
                 value.isDarkMode ? "bg-[#171721]" : "bg-slate-200"
               }  shadow-md bg-clip-border rounded-xl w-96`}
             >
-              <div class="h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+              <div className="h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                 <img src={project.image} alt="card-image" />
               </div>
               <div className="flex flex-wrap justify-center mx-2 my-0">
@@ -95,38 +95,38 @@ export default function Projects() {
                   );
                 })}
               </div>
-              <div class="p-6">
+              <div className="p-6">
                 <h1
-                  class={`block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900
+                  className={`block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900
                    ${value.isDarkMode ? "text-[#F2F3F495]" : "text-black"}`}
                 >
                   {project.title}
                 </h1>
                 <div
-                  class={`block mb-2 font-sans text-sm antialiased  font-semibold leading-snug tracking-normal text-blue-gray-900   ${
+                  className={`block mb-2 font-sans text-sm antialiased  font-semibold leading-snug tracking-normal text-blue-gray-900   ${
                     value.isDarkMode ? "text-[#F2F3F495]" : "text-black"
                   }`}
                 >
                   {project.date}
                 </div>
                 <div
-                  class={`line-clamp-5 font-sans text-base antialiased font-light leading-relaxed ${
+                  className={`line-clamp-5 font-sans text-base antialiased font-light leading-relaxed ${
                     value.isDarkMode ? "text-[#F2F3F495]" : "text-black"
                   }`}
                 >
                   {project.description}
                 </div>
               </div>
-              <div class="p-6 pt-0 text-center">
+              <div className="p-6 pt-0 text-center">
                 <button
-                  class={`align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg ${value.isDarkMode ? 'bg-[#306EE8]': 'bg-gray-900' }  text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none`}
+                  className={`align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg ${value.isDarkMode ? 'bg-[#306EE8]': 'bg-gray-900' }  text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none`}
                   type="button"
                   onClick={() => window.open(project.webapp, "_blank")}
                 >
                   Live Demo
                 </button>
                 <button
-                  class={`ml-3 align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg ${value.isDarkMode ? 'bg-[#306EE8]': 'bg-gray-900' } text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none`}
+                  className={`ml-3 align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg ${value.isDarkMode ? 'bg-[#306EE8]': 'bg-gray-900' } text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none`}
                   type="button"
                   onClick={() => window.open(project.github, "_blank")}
                 >
