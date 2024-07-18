@@ -25,7 +25,7 @@ export default function Education() {
             Education
           </div>
           <div
-            className={`text-xl text-center mt-4  ${
+            className={`text-xl text-center max-md:text-lg mt-4  ${
               value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
             }`}
           >

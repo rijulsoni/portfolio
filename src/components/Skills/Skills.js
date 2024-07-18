@@ -20,7 +20,7 @@ export default function Skills() {
         Skills
       </div>
       <div
-        className={`text-xl text-center  ${
+        className={`text-xl text-center max-md:text-lg ${
           value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
         } `}
       >

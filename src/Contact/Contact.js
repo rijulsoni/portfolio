@@ -10,16 +10,16 @@ export default function Contact() {
       style={{ fontFamily: "poppins" }}
     >
       <div className="max-w-screen-md mx-auto p-5">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 max-md:mb-4">
           <div
-            className={`mt-7 sm:text-4xl text-[42px] text-center font-semibold ${
+            className={`mt-7 max-md:mt-1 sm:text-4xl text-[42px] text-center font-semibold ${
               value.isDarkMode ? "text-white" : "text-black"
             }`}
           >
             Contact
           </div>
           <div
-            className={`text-xl text-center mt-4  ${
+            className={`text-xl text-center max-md:text-lg mt-4 max-md:mt-1 ${
               value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
             }`}
           >
@@ -28,15 +28,15 @@ export default function Contact() {
         </div>
 
         <form
-          className={`w-full ${
+          className={`w-full mb-12 ${
             value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
           } border-2 border-[#306EE8] p-4 rounded-xl`}
           action="https://public.herotofu.com/v1/145ea390-2af7-11ef-b435-b1ba21672864"
           method="post"
           accept-charset="UTF-8"
         >
-          <div className="flex flex-wrap -mx-3 mb-6">
-            <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+          <div className="flex flex-wrap -mx-3 mb-6  max-md:mb-2">
+            <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0 max-md:mb-0">
               <label
                 className="block uppercase tracking-wide  text-xs font-bold mb-2"
                 for="grid-first-name"
@@ -67,7 +67,7 @@ export default function Contact() {
               />
             </div>
           </div>
-          <div className="flex flex-wrap -mx-3 mb-6">
+          <div className="flex flex-wrap -mx-3 mb-6  max-md:mb-0">
             <div className="w-full px-3">
               <label
                 className="block uppercase tracking-wide  text-xs font-bold mb-2"
@@ -85,7 +85,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="flex flex-wrap -mx-3 mb-6">
+          <div className="flex flex-wrap -mx-3 mb-6  max-md:mb-1">
             <div className="w-full px-3">
               <label
                 className="block uppercase tracking-wide  text-xs font-bold mb-2"
@@ -94,7 +94,7 @@ export default function Contact() {
                 Your Message
               </label>
               <textarea
-                rows="10"
+                rows="3"
                 name="message"
                 placeholder="Your Message"
                 className="appearance-none block w-full placeholder-blue-300  text-black border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"

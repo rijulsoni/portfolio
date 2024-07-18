@@ -41,7 +41,7 @@ export default function Projects() {
             Projects
           </div>
           <div
-            className={`text-xl text-center mt-4  ${
+            className={`text-xl max-md:text-lg text-center mt-4  ${
               value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
             }`}
           >
