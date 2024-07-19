@@ -20,21 +20,21 @@ export default function Experience() {
       style={{ fontFamily: "poppins" }}
     >
       <div
-        className={`text-[42px] text-center font-semibold mt-9 ${
+        className={`text-[42px] mt-10 text-center font-semibold ${
           value.isDarkMode ? "text-white" : "text-black"
         }`}
       >
         Experience
       </div>
       <div
-        className={`text-xl text-center max-md:text-lg ${
+        className={`text-xl text-center max-md:text-lg mt-4 ${
           value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
         }`}
       >
         My work experience as a software engineer and working on different
         companies and projects.
       </div>
-      <div className="flex flex-col items-center justify-center w-full max-w-5xl">
+      <div className="flex flex-col items-center mt-6 justify-center w-full max-w-5xl">
         <Timeline>
           {experiences.map((experience, index) => (
             <TimelineItem key={index}>
@@ -45,16 +45,14 @@ export default function Experience() {
                 )}
               </TimelineSeparator>
               <TimelineContent sx={{ py: "12px", px: 2 }}>
-                <div
-                  className={`w-[750px] border-2 border-[#306EE8] rounded-xl hover:cursor-pointer px-3 py-4 group ${
+              <div
+                  className={`w-[400px] md:w-[700px] lg:w-[900px] border-2 border-[#306EE8] rounded-xl hover:cursor-pointer px-3 py-4 group ${
                     value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
                   }`}
                 >
                   <div className="flex justify-between">
                     <img
-                      className="border rounded-xl border-black"
-                      width="50px"
-                      height="50px"
+                      className="border rounded-xl border-black w-20 h-20"
                       src={experience.img}
                       alt="img"
                     />

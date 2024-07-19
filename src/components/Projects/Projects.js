@@ -34,14 +34,14 @@ export default function Projects() {
       <div className="max-w-screen-md mx-auto p-5">
         <div className="text-center">
           <div
-            className={`mt-7 sm:text-4xl text-[42px] text-center font-semibold ${
+            className={`mt-7 sm:text-4xl text-[42px]  max-md:mt-0 text-center font-semibold ${
               value.isDarkMode ? "text-white" : "text-black"
             }`}
           >
             Projects
           </div>
           <div
-            className={`text-xl max-md:text-lg text-center mt-4  ${
+            className={`text-xl max-md:text-lg text-center mt-4  max-md:mt-1  ${
               value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
             }`}
           >
