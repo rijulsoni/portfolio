@@ -13,14 +13,14 @@ export default function About() {
       } ${value.isDarkMode ? "bg-[#1C1C27]" : "bg-slate-100"} `}
       style={{ fontFamily: "poppins" }}
     >
-      <div className="p-28 w-8/12 max-[1083px]:order-2 max-[1083px]:py-0 max-[1083px]:w-9/12 max-[924px]:w-8/12">
+      <div className="md:w-11/12 md:px-3 lg:w-4/6 lg:pb-20 lg:pl-20 lg:pr-20 lg:pt-8 max-[1083px]:order-2 mb-20 mt-5 ">
         <div className="text-6xl m-2 max-[1083px]:mt-1 max-[1083px]:text-center max-[1083px]:text-4xl max-[924px]:text-3xl max-[616px]:text-2xl">
           Hi, I'm
           <div className="mt-3 max-[1083px]:text-center max-[1083px]:mt-2 max-[1083px]:text-4xl max-[924px]:text-3xl max-[616px]:text-2xl">
             {Bio.name}
           </div>
         </div>
-        <span className="text-3xl flex m-2 mt-3 max-[1083px]:mt-2 max-[1083px]:text-center max-[1083px]:text-3xl max-[924px]:text-2xl max-[616px]:text-xl">
+        <span className="text-sm  sm:text-3xl flex m-2 mt-3 justify-center lg:justify-start lg:text-left lg:mt-2">
           <span>I'm a&nbsp;</span>
           <span className="inline text-[#854ce6]">
             <Typewriter
@@ -29,15 +29,13 @@ export default function About() {
                 autoStart: true,
                 loop: true,
               }}
-           />
-            {/* React Native Developer */}
+            />
           </span>
-        </span>
-
-        <div
-          className={`text-lg text-justify m-2 mt-4 max-[1083px]:text-center max-[1083px]:mt-2 w-11/12 max-[1083px]:text-sm ${
-            value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
-          }  `}
+        </span>  <div
+          className={`p-3 text-lg text-justify m-2 mt-4 max-[1083px]:text-center max-[1083px]:mt-2
+             max-[1083px]:text-sm ${
+               value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
+             }  `}
         >
           {Bio.description}
         </div>
@@ -51,6 +49,7 @@ export default function About() {
           </a>
         </div>
       </div>
+
       <div className="py-28 px-11 max-[1083px]:order-1 max-[1083px]:py-4">
         <img
           className="border-2 rounded-full border-purple-600 w-80 h-80 max-[1083px]:w-60 max-[1083px]:h-60 max-[924px]:w-32 max-[924px]:h-32"
@@ -61,4 +60,3 @@ export default function About() {
     </div>
   );
 }
-//1083
