@@ -24,7 +24,7 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
             height={21}
             src={value.isDarkMode ? logoWhite : logo}
@@ -55,7 +55,7 @@ export default function Navbar() {
             Github Profile
           </a>
 
-          <button className="p-2 md:hidden" onClick={handleMenu}>
+          <button className="p-5 md:hidden" onClick={handleMenu}>
             <i className="fa-solid fa-bars text-gray-600"></i>
           </button>
           <div
@@ -65,7 +65,7 @@ export default function Navbar() {
             } fixed z-10 md:hidden w-full bg-white inset-0 p-3`}
           >
             <div id="nav-bar" className="flex justify-between">
-              <a href="#" id="brand" className="flex gap-2 items-center">
+              <a href="/" id="brand" className="flex gap-2 items-center">
                 <img
                   className="object-cover max-w-12 max-h-12"
                   src={logo}
@@ -79,31 +79,36 @@ export default function Navbar() {
             </div>
             <div className="mt-6">
               <a
-                href="#"
+                href="#about"
+                onClick={handleMenu}
                 className="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"
               >
                 About
               </a>
               <a
-                href="#"
+                href="#skills"
+                onClick={handleMenu}
                 className="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"
               >
                 Skills
               </a>
               <a
-                href="#"
+                href="#experience"
+                onClick={handleMenu}
                 className="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"
               >
                 Experience
               </a>
               <a
-                href="#"
+                href="#projects"
+                onClick={handleMenu}
                 className="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"
               >
                 Projects
               </a>
               <a
-                href="#"
+                href="#education"
+                onClick={handleMenu}
                 className="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"
               >
                 Education
@@ -121,7 +126,7 @@ export default function Navbar() {
           >
             <li>
               <a
-                href="#"
+                href="#about"
                 className={`block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 ${
                   value.isDarkMode ? "text-white" : "text-black"
                 } dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
@@ -132,7 +137,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#skills"
                 className={`block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 ${
                   value.isDarkMode ? "text-white" : "text-black"
                 } dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
@@ -143,7 +148,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#experience"
                 className={`block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 ${
                   value.isDarkMode ? "text-white" : "text-black"
                 } dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
@@ -154,7 +159,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#projects"
                 className={`block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 ${
                   value.isDarkMode ? "text-white" : "text-black"
                 } dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
@@ -165,7 +170,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#education"
                 className={`block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 ${
                   value.isDarkMode ? "text-white" : "text-black"
                 } dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
@@ -174,17 +179,6 @@ export default function Navbar() {
                 Education
               </a>
             </li>
-            {/* <li>
-              <a
-                href="#"
-                className={`block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 ${
-                  value.isDarkMode ? "text-white" : "text-black"
-                } dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
-                aria-current="page"
-              >
-                Contact
-              </a>
-            </li> */}
           </ul>
         </div>
       </div>

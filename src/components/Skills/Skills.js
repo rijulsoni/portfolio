@@ -6,7 +6,7 @@ import ThemeContext from "../../context/theme/ThemeContext";
 export default function Skills() {
   const value = useContext(ThemeContext);
   return (
-    <div
+    <div id="skills"
       className={`flex flex-col items-center ${
         value.isDarkMode ? "bg-[#0d0d1a]" : "bg-slate-100"
       } `}

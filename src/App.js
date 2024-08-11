@@ -18,7 +18,6 @@ function App() {
   };
   return (
     <ThemeContext.Provider value={contextValue}>
-
       <Navbar />
       <About />
       <Skills />

@@ -13,7 +13,7 @@ export default function Experience() {
   const value = useContext(ThemeContext);
 
   return (
-    <div
+    <div id="experience"
       className={`flex flex-col items-center ${
         value.isDarkMode ? "bg-[#0d0d1a]" : "bg-slate-100"
       }`}

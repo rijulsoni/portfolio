@@ -25,7 +25,7 @@ export default function Projects() {
   }, [selectedCategory]);
 
   return (
-    <div
+    <div id="projects"
       className={`${
         value.isDarkMode ? "bg-[#0d0d1a]" : "bg-slate-100"
       } flex flex-col items-center`}

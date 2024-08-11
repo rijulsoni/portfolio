@@ -5,7 +5,7 @@ import ThemeContext from "../context/theme/ThemeContext";
 export default function Contact() {
   const value = useContext(ThemeContext);
   return (
-    <div
+    <div id="contact"
       className={`${value.isDarkMode ? "bg-[#0d0d1a]" : "bg-slate-100"}`}
       style={{ fontFamily: "poppins" }}
     >

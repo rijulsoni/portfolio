@@ -7,7 +7,7 @@ import HeroImg from "../../assets/anas-alshanti-feXpdV001o4-unsplash.jpg";
 export default function About() {
   const value = useContext(ThemeContext);
   return (
-    <div
+    <div id="about"
       className={`h-full flex flex-col min-[1083px]:flex-row max-[1083px]:items-center ${
         value.isDarkMode ? "text-white" : "text-black"
       } ${value.isDarkMode ? "bg-[#1C1C27]" : "bg-slate-100"} `}

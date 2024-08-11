@@ -11,10 +11,10 @@ import ThemeContext from "../../context/theme/ThemeContext";
 export default function Education() {
   const value = useContext(ThemeContext);
   return (
-    <div
+    <div id="education"
       className={`${
         value.isDarkMode ? "bg-[#0d0d1a]" : "bg-slate-100"
-      } flex flex-col items-center`}
+      } flex flex-col items-center `}
       style={{ fontFamily: "poppins" }}
     >
       <div className="max-w-screen-md mx-auto p-5">
@@ -46,7 +46,7 @@ export default function Education() {
                   <TimelineConnector style={{ background: "#854CE6" }} />
                 )}
               </TimelineSeparator>
-              <TimelineContent sx={{ py: "12pxpx", px: 2 }}>
+              <TimelineContent sx={{ py: "12px", px: 2 }}>
                 <div
                   className={`w-[400px] md:w-[700px] lg:w-[900px] border-2 border-[#306EE8] rounded-xl hover:cursor-pointer px-3 py-4 group ${
                     value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
