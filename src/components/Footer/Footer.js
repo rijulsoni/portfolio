@@ -13,42 +13,42 @@ export default function Footer() {
           }`}
         >
           <div className="px-5 py-2">
-            <a href="#" className="text-base leading-6 ">
+            <a href="#about" className="text-base leading-6 ">
               About
             </a>
           </div>
           <div className="px-5 py-2">
-            <a href="#" className="text-base leading-6 ">
+            <a href="#skills" className="text-base leading-6 ">
               Skills
             </a>
           </div>
           <div className="px-5 py-2">
-            <a href="#" className="text-base leading-6 ">
+            <a href="#experience" className="text-base leading-6 ">
               Experience
             </a>
           </div>
           <div className="px-5 py-2">
-            <a href="#" className="text-base leading-6 ">
+            <a href="#projects" className="text-base leading-6 ">
               Projects
             </a>
           </div>
           <div className="px-5 py-2">
-            <a href="#" className="text-base leading-6">
+            <a href="#education" className="text-base leading-6">
               Education
             </a>
           </div>
         </nav>
         <div className="flex justify-center mt-8 space-x-6">
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="https://x.com/Rijulsoniii" className="text-gray-400 hover:text-gray-500">
             <i className="fa-brands fa-twitter text-2xl" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="https://github.com/rijulsoni" className="text-gray-400 hover:text-gray-500">
             <i className="fa-brands fa-github text-2xl" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="https://www.instagram.com/rijulsonii?igsh=MTZ3dnVrYzhta3F4dA==" className="text-gray-400 hover:text-gray-500">
             <i className="fa-brands fa-instagram text-2xl" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="https://www.linkedin.com/in/rijulsoni31/" className="text-gray-400 hover:text-gray-500">
             <i className="fa-brands fa-linkedin-in text-2xl" />
           </a>
         </div>
