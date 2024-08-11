@@ -55,7 +55,7 @@ export default function Navbar() {
             Github Profile
           </a>
 
-          <button className="p-5 md:hidden" onClick={handleMenu}>
+          <button className="p-2 md:hidden" onClick={handleMenu}>
             <i className="fa-solid fa-bars text-gray-600"></i>
           </button>
           <div
