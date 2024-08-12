@@ -1,5 +1,5 @@
 import "./App.css";
-import Contact from "./Contact/Contact";
+import Contact from "./components/Contact";
 import About from "./components/About/About";
 import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";

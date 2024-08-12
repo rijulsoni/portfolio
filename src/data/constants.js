@@ -1,3 +1,9 @@
+import abvgiet from "./abv.jpg";
+import lmps from "./lmps.jpg";
+import oceana from "./oceana_tech.jpeg";
+import oceanaCertificate from "./oceana.jpg";
+import ExcellenceTechnology from "./Excellence-Technology-Industrial-Training-In-Chandigarh-Mohali-1.jpg";
+import wm from "./wm.jpg"
 export const Bio = {
   name: "Rijul Soni",
   roles: [
@@ -132,39 +138,98 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - July 2023",
-    desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+    img: oceana,
+    role: "Node.js & Express.js Intern",
+    company: "Oceana Tech",
+    date: "Aug 2022 - Sept 2022",
+    desc: "Worked on developing and maintaining server-side applications using Node.js and Express.js, with MongoDB as the database and EJS as the templating engine.",
     skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "EJS",
       "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
+      "HTML",
+      "CSS",
+      "Bootstrap",
     ],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+    doc: oceanaCertificate,
   },
-
+  {
+    id: 1,
+    img: ExcellenceTechnology,
+    role: "MERN Stack Intern",
+    company: "Excellence Technology",
+    date: "March 2023 - July 2023",
+    desc: "Worked on developing full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). Involved in both front-end and back-end development, implementing features, debugging, and optimizing applications.",
+    skills: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+    ],
+    doc: "https://link-to-your-document-or-portfolio.com",
+  },
+  {
+    id:21,
+    img: wm,
+    role: "Associate Software Engineer",
+    company: "Watermark Insights",
+    date: "July 2023 - Present",
+    desc: "Worked as an Associate Software Engineer with a focus on developing and maintaining applications using Ruby on Rails, PostgreSQL, MongoDB, React, Redux, and Docker. Involved in both backend and frontend development, database management, and containerization of applications. Utilized Jest for JavaScript testing, RSpec for Ruby testing, and Jbuilder for JSON responses.",
+    skills: [
+      "Ruby",
+      "Ruby on Rails",
+      "PostgreSQL",
+      "MongoDB",
+      "React.js",
+      "Redux",
+      "Docker",
+      "Git",
+      "Jest",
+      "RSpec",
+      "Jbuilder",
+      "JavaScript",
+      "HTML",
+      "CSS",
+    ],
+    doc: "",
+  },
 ];
 
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.71 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    img: abvgiet,
+    school:
+      "Atal Bihari Vajpayee Govt Institute of Engineering & Technology, Shimla",
+    date: "Aug 2019 - July 2023",
+    grade: "7.7 CGPA",
+    desc: "I completed my B.Tech in Computer Science and Engineering from Atal Bihari Vajpayee Govt Institute of Engineering & Technology, Shimla. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
-
+  {
+    id: 1,
+    img: lmps,
+    school: "Laxmi memorial public school, Bhoti",
+    date: "April 2018 - March 2019",
+    grade: "81.4 %",
+    desc: "I completed my Class 12th in the Non-Medical stream, focusing on subjects like Physics, Chemistry, Mathematics, and Computer Science.",
+    degree: "Class 12th - Non-Medical",
+  },
+  {
+    id: 2,
+    img: lmps,
+    school: "Laxmi memorial public school, Bhoti",
+    date: "April 2016 - March 2017",
+    grade: "90 %",
+    desc: "I completed my Class 10th with a strong foundation in subjects like Mathematics, Science, English, and Social Studies.",
+    degree: "Class 10th",
+  },
 ];
 
 export const projects = [
@@ -193,14 +258,4 @@ export const projects = [
     github: "https://github.com/rishavchanda/Trackify",
     webapp: "https://trackify.duckdns.org",
   },
-  
-
 ];
-
-// export const TimeLineData = [
-//   { year: 2017, text: "Started my journey" },
-//   { year: 2018, text: "Worked as a freelance developer" },
-//   { year: 2019, text: "Founded JavaScript Mastery" },
-//   { year: 2020, text: "Shared my projects with the world" },
-//   { year: 2021, text: "Started my own platform" },
-// ];
