@@ -77,7 +77,7 @@ export default function Projects() {
             <div
               className={`flex flex-col mt-9 text-gray-700  ${
                 value.isDarkMode ? "bg-[#171721]" : "bg-slate-200"
-              }  shadow-md bg-clip-border rounded-xl w-96`}
+              }  shadow-md bg-clip-border rounded-xl w-80`}
             >
               <div className="h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                 <img src={project.image} alt="card-image" />

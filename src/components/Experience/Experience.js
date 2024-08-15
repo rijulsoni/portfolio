@@ -46,7 +46,7 @@ export default function Experience() {
               </TimelineSeparator>
               <TimelineContent sx={{ py: "12px", px: 2 }}>
               <div
-                  className={`w-[400px] md:w-[700px] lg:w-[900px] border-2 border-[#306EE8] rounded-xl hover:cursor-pointer px-3 py-4 group ${
+                  className={`w-[314px] sm:w-[500px] md:w-[700px] lg:w-[900px] border-2 border-[#306EE8] rounded-xl hover:cursor-pointer px-3 py-4 group ${
                     value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
                   }`}
                 >

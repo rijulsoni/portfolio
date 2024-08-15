@@ -74,10 +74,10 @@ export default function Navbar() {
                 <span className="text-lg font-bold font-display">Rijul Soni</span>
               </a>
               <button className="p-2 md:hidden" onClick={handleMenu}>
-                <i className="fa-solid fa-xmark text-gray-600" />
+                <i className="fa-solid fa-xmark text-gray-600 mr-4" />
               </button>
             </div>
-            <div className="mt-6">
+             <div className="mt-6">
               <a
                 href="#about"
                 onClick={handleMenu}
