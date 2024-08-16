@@ -24,8 +24,7 @@ export default function Skills() {
           value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
         } `}
       >
-        Here are some of my skills on which I have been working on for the past
-        2 years.
+       Over the past two years, I have diligently honed a diverse set of skills that I continue to build upon.
       </div>
       <div className="w-[300px] sm:w-[400px] lg:[500px] min-[1083px]:w-[1000px] mt-8 grid grid-cols-1 gap-8 min-[1083px]:grid-cols-2">
         {skills.map((skill) => (

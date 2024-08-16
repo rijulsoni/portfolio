@@ -45,8 +45,7 @@ export default function Projects() {
               value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
             }`}
           >
-            I have worked on a wide range of projects. From web apps to android
-            apps. Here are some of my projects.
+            I have worked on a diverse array of projects, ranging from web applications to Android apps. Below are some of the key projects I have developed.
           </div>
         </div>
       </div>
@@ -77,7 +76,7 @@ export default function Projects() {
             <div
               className={`flex flex-col mt-9 text-gray-700  ${
                 value.isDarkMode ? "bg-[#171721]" : "bg-slate-200"
-              }  shadow-md bg-clip-border rounded-xl w-80`}
+              }  shadow-md bg-clip-border rounded-xl w-80 sm:w-96`}
             >
               <div className="h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                 <img src={project.image} alt="card-image" />

@@ -31,8 +31,7 @@ export default function Education() {
               value.isDarkMode ? "text-[#F2F3F495]" : "text-[#11111195]"
             }`}
           >
-            My education has been a journey of self-discovery and growth. My
-            educational details are as follows.
+            My education has been a journey of self-discovery and growth, shaping both my personal and professional development. Below are the details of my academic background.
           </div>
         </div>
       </div>

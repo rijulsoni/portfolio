@@ -3,7 +3,8 @@ import lmps from "./lmps.jpg";
 import oceana from "./oceana_tech.jpeg";
 import oceanaCertificate from "./oceana.jpg";
 import ExcellenceTechnology from "./Excellence-Technology-Industrial-Training-In-Chandigarh-Mohali-1.jpg";
-import wm from "./wm.jpg"
+import ExcellenceTechnologyCertificate from "./etcert.jpg";
+import wm from "./wm.jpg";
 export const Bio = {
   name: "Rijul Soni",
   roles: [
@@ -13,7 +14,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a highly motivated and adaptable individual, driven by a passion for continuous learning and growth. I embrace challenges with enthusiasm and am committed to delivering exceptional results. My positive attitude, combined with a strong growth mindset, empowers me to make meaningful contributions and achieve outstanding success in every endeavor.",
   github: "https://github.com/rijulsoni",
   resume:
     "https://drive.google.com/file/d/1sfpF4SgglegP1qLG22awGMjHUaPN1iqa/view?usp=drive_link",
@@ -172,10 +173,10 @@ export const experiences = [
       "CSS",
       "Bootstrap",
     ],
-    doc: "https://link-to-your-document-or-portfolio.com",
+    doc: ExcellenceTechnologyCertificate,
   },
   {
-    id:21,
+    id: 21,
     img: wm,
     role: "Associate Software Engineer",
     company: "Watermark Insights",

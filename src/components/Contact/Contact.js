@@ -1,6 +1,6 @@
 import React from "react";
 import { useContext } from "react";
-import ThemeContext from "../context/theme/ThemeContext";
+import ThemeContext from "../../context/theme/ThemeContext";
 
 export default function Contact() {
   const value = useContext(ThemeContext);
