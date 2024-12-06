@@ -27,11 +27,11 @@ export default function Footer() {
               Experience
             </a>
           </div>
-          <div className="px-5 py-2">
+          {/* <div className="px-5 py-2">
             <a href="#projects" className="text-base leading-6 ">
               Projects
             </a>
-          </div>
+          </div> */}
           <div className="px-5 py-2">
             <a href="#education" className="text-base leading-6">
               Education

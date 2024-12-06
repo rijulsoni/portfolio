@@ -99,13 +99,13 @@ export default function Navbar() {
               >
                 Experience
               </a>
-              <a
+              {/* <a
                 href="#projects"
                 onClick={handleMenu}
                 className="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"
               >
                 Projects
-              </a>
+              </a> */}
               <a
                 href="#education"
                 onClick={handleMenu}
@@ -157,7 +157,7 @@ export default function Navbar() {
                 Experience
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="#projects"
                 className={`block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 ${
@@ -167,7 +167,7 @@ export default function Navbar() {
               >
                 Projects
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 href="#education"

@@ -49,14 +49,14 @@ export default function About() {
           </a>
         </div>
       </div>
-
+{/* 
       <div className="py-28 px-11 max-[1083px]:order-1 max-[1083px]:py-4">
         <img
           className="border-2 rounded-full border-purple-600 w-80 h-80 max-[1083px]:w-60 max-[1083px]:h-60 max-[924px]:w-32 max-[924px]:h-32"
           src={HeroImg}
           alt="hero-img"
         />
-      </div>
+      </div> */}
     </div>
   );
 }

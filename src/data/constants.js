@@ -17,7 +17,7 @@ export const Bio = {
     "I am a highly motivated and adaptable individual, driven by a passion for continuous learning and growth. I embrace challenges with enthusiasm and am committed to delivering exceptional results. My positive attitude, combined with a strong growth mindset, empowers me to make meaningful contributions and achieve outstanding success in every endeavor.",
   github: "https://github.com/rijulsoni",
   resume:
-    "https://drive.google.com/file/d/1sfpF4SgglegP1qLG22awGMjHUaPN1iqa/view",
+    "https://drive.google.com/file/d/1iuZEx2HifoFr9RL74IuZSSwEUuY1mGSR/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/rijulsoni31/",
   insta: "https://www.instagram.com/rijulsonii/",
 };
